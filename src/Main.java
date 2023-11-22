@@ -6,29 +6,29 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int x = 777; // Начальный счет клиента
+        int initial_account = 777; // Начальный счет клиента
 
-        int y = 500; // Сумма пополнения
+        int account_replenishment_amount = 500; // Сумма пополнения
 
-        int s = (x + y); // Сумма после пополнения
+        int amount_after_replenishment = (initial_account + account_replenishment_amount); // Сумма после пополнения
 
-        int b = 100; // Условия для получения бонусов
+        int conditions_for_receiving_bonuses = 100; // Условия для получения бонусов
 
-        int m = 1; // Рублей в подарок
+        int mamount_as_a_gift = 1; // Рублей в подарок
 
-        int p = (s / 100); // Количество бонусов, которые получит клиент
+        int number_of_bonuses_as_a_giftp = (amount_after_replenishment / 100); // Количество бонусов, которые получит клиент
 
-        int n = (x + y + p); // Итоговая сумма на счету после получения бонусов
+        int total_amount = (initial_account + account_replenishment_amount + number_of_bonuses_as_a_giftp); // Итоговая сумма на счету после получения бонусов
 
-        if (s >= 1000) {
+        if (amount_after_replenishment >= 1000) {
 
             System.out.println("Количество бонусных рублей:");
 
-            System.out.println(p);
+            System.out.println(number_of_bonuses_as_a_giftp);
 
             System.out.println("Итоговая сумма на счету:");
 
-            System.out.println(n);
+            System.out.println(total_amount);
 
 
         } else {
@@ -39,7 +39,7 @@ public class Main {
 
             System.out.println("Итоговая сумма на счету:");
 
-            System.out.println(s);
+            System.out.println(amount_after_replenishment);
 
 
         }
