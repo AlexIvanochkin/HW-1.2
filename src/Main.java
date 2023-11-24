@@ -6,29 +6,29 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int initial_account = 777; // Начальный счет клиента
+        int initialAccount = 777; // Начальный счет клиента
 
-        int account_replenishment_amount = 500; // Сумма пополнения
+        int accountReplenishmentAmount = 500; // Сумма пополнения
 
-        int amount_after_replenishment = (initial_account + account_replenishment_amount); // Сумма после пополнения
+        int amountAfterReplenishment = (initialAccount + accountReplenishmentAmount); // Сумма после пополнения
 
-        int conditions_for_receiving_bonuses = 100; // Условия для получения бонусов
+        int conditionsForReceivingBonuses = 100; // Условия для получения бонусов
 
-        int mamount_as_a_gift = 1; // Рублей в подарок
+        int amountAsAGift = 1; // Рублей в подарок
 
-        int number_of_bonuses_as_a_giftp = (amount_after_replenishment / 100); // Количество бонусов, которые получит клиент
+        int numberOfBonusesAsAGifts = (amountAfterReplenishment / 100); // Количество бонусов, которые получит клиент
 
-        int total_amount = (initial_account + account_replenishment_amount + number_of_bonuses_as_a_giftp); // Итоговая сумма на счету после получения бонусов
+        int totalAmount = (initialAccount + accountReplenishmentAmount + numberOfBonusesAsAGifts); // Итоговая сумма на счету после получения бонусов
 
-        if (amount_after_replenishment >= 1000) {
+        if (amountAfterReplenishment >= 1000) {
 
             System.out.println("Количество бонусных рублей:");
 
-            System.out.println(number_of_bonuses_as_a_giftp);
+            System.out.println(numberOfBonusesAsAGifts);
 
             System.out.println("Итоговая сумма на счету:");
 
-            System.out.println(total_amount);
+            System.out.println(totalAmount);
 
 
         } else {
@@ -39,7 +39,7 @@ public class Main {
 
             System.out.println("Итоговая сумма на счету:");
 
-            System.out.println(amount_after_replenishment);
+            System.out.println(amountAfterReplenishment);
 
 
         }
